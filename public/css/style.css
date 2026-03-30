@@ -1,0 +1,95 @@
+body{
+    background-image: url("../img/stars.jpg");
+    color: white;    
+}
+
+header, body, nav, footer{
+    text-align: center;
+    justify-content: center;
+}
+
+nav, main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    padding: 15px;
+    padding-bottom: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;  
+    background: none;
+    border: none;
+}
+
+nav a:hover{
+    border-bottom: 2px black solid;
+    color: #005393;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#description{
+    text-align: left;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+span{
+    font-weight: bold;
+}
+
+footer{
+    font-size: smaller;
+    color: white; 
+}
+
+#foot{
+    height:5%;
+    width:5%;
+}
+
+img{
+    padding-top: 20px;
+    height: auto;
+    width: 450px;
+    border-radius: 5%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+#nasa img{
+    height: 300px;
+    width: auto;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+#nasa{
+    color: white;
+    width: 700px;
+    border-radius: 5%;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.25);
+    
+}
+
+#nasa main{
+    text-align: left;
+}
+
